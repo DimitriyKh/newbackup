@@ -180,6 +180,7 @@ prune monthly
 #cleare TMP_DIR
 cd $TMP_DIR
 #check each file and by mask see if there is new backup, then delete old one.
-
+rm -f *${NOW}*.gz
+rm -f *${NOW}*.sql
 
 exit
